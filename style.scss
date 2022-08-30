@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Khand';
+    src: url(/wp-content/themes/industrydive/fonts/Khand-Bold.woff2);
+}
+
+@font-face {
+    font-family: 'Invention';
+    src: url(/wp-content/themes/industrydive/fonts/Invention-Regular.eot);
+}
+
+$primarycolor: #009791;
+$secondarycolor: #333e47;
+$overlaycolor: rgba(0, 0, 0, 0.4);
+$textcolor: #5a5a5a;
+$white: #FFFFFF;
+
+
+body {
+    font-family: 'Invention', sans-serif;
+    background: $white;
+    margin: 0;
+    color: $textcolor;
+
+}
+
+a {
+    text-decoration: none;
+    color: $textcolor;
+}
+
+h1,
+h2 {
+    font-family: 'Khand', sans-serif;
+}
+
+header {
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    background-color: $white;
+
+
+}
+
+.context-area {
+    position: absolute;
+}
+
+.logo {
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 10px;
+    margin: 0 auto;
+    color: $textcolor;
+
+}
+
+.searchform {
+    div {
+        display: flex;
+    }
+}
+
+button {
+    background: $primarycolor;
+    color: $white;
+    border: none;
+    box-shadow: #333e47;
+    font-weight: 700;
+    font-size: medium;
+    font-family: sans-serif;
+    border-radius: 10px;
+    padding: 10px 10px;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+
+}
+
+
+.wp-post-image {
+    height: 550px;
+    width: 100%;
+
+}
+
+.category-featured img {
+    height: 400px;
+    width: 500px;
+}
+
+.two-row-ft {
+    width: 50%;
+}
+
+.single-panel {
+    width: 50%;
+
+    img {
+        height: 900px;
+    }
+}
+
+.Latest {
+    margin: 0 auto;
+    width: 85%;
+
+    .three-panel {
+        display: flex;
+        justify-content: space-between;
+
+        article {
+            padding: 0 25px;
+        }
+    }
+}
+
+.trending {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 80%;
+
+    .single-panel {
+        padding-right: 70px;
+
+        img {
+            height: 1000px;
+        }
+    }
+
+}
+
+.featured {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 80%;
+
+}
+
+
+.title-fn {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top-bar {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+
+    .subscribe {
+        text-align: right;
+    }
+
+    div {
+        width: 33%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 35px;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+}
+
+
+.bottom-bar ul li {
+    display: inline;
+    margin: 10px 0;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.footer_menu ul li {
+    display: inline-block;
+
+}
+
+footer {
+    background: $secondarycolor;
+    display: flex;
+    height: 100px;
+
+    a {
+        color: $white;
+    }
+}
+
+.footercls {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.my_loadmore {
+
+
+    background-color: $primarycolor;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    padding: 10px 10px;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+}
+
+.my_loadmore:hover {
+    background-color: #767676;
+    color: $white;
+}
